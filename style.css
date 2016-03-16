@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: yellow;
+}
+#menu {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
+.hamburger{
+    display: block;
+}
+.hamburger {
+    visibility: visible;
+    display: block;
+    width: 24px;
+    height: 18px;
+    float: left;
+    border: none;
+    margin: 28px 0 0 25px;
+    padding: 0;
+    background-color: transparent;
+}
+
