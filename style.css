@@ -1,4 +1,6 @@
 body {
+    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:center;
     margin:0;
     padding:0;
     background-color: yellow;
@@ -22,4 +24,24 @@ body {
     padding: 0;
     background-color: transparent;
 }
+ul {
+    list-style: none; /* enlever les puces */
+    margin: 0; /* enlever les marges automatiques */
+    font-family:Verdana;
+}
+ul li {
+    display: table-cell;
+}
 
+#contenu {
+    margin-top:auto;
+    margin-bottom:auto;
+    margin:auto;
+}
+h1 {
+    font-family: "Apercu Bold";
+    font-size: 60px;
+    line-height: 62px;
+    font-style: normal;
+    font-weight: bold;
+}
