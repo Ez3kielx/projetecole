@@ -3,12 +3,14 @@ body {
     text-align:center;
     margin:0;
     padding:0;
-    background-color: yellow;
+    background-color: #FFDB00;
 }
 #menu {
     height: 75px;
     width: 100%;
     background-color: white;
+    box-shadow: 1px 1px 1px #aaa;
+    position:fixed;
 }
 .hamburger{
     display: block;
@@ -25,23 +27,57 @@ body {
     background-color: transparent;
 }
 ul {
-    list-style: none; /* enlever les puces */
-    margin: 0; /* enlever les marges automatiques */
+    list-style: none; 
+    margin: 0;
     font-family:Verdana;
+    float: right;
+    padding-top: 25px;
 }
+li {
+    padding-right: 20px;
+}
+
 ul li {
     display: table-cell;
 }
 
 #contenu {
-    margin-top:auto;
-    margin-bottom:auto;
-    margin:auto;
+    margin:auto auto;
+    padding-top: 100px;
 }
 h1 {
-    font-family: "Apercu Bold";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 60px;
     line-height: 62px;
     font-style: normal;
     font-weight: bold;
+}
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer{
+background:#262626;
+position:absolute;
+bottom:-150px;
+width:100%;
+padding-top:50px;
+height:100px;
+}
+
+#photo {
+    padding-top: 50px;
+}
+
+#logo { 
+   float: left; 
+    width: 120px; 
+    height:100px; 
+    margin-left: 20px;
+}
+
+ul a { 
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
